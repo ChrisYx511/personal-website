@@ -33,8 +33,8 @@ function HomePage() {
           <p className="mb-2">
             In my spare time, I am an active contributor on the Waterloo
             Rocketry Software Subsystem, working to deliver mission critical
-            software used to launch Canada's second ever liquid bipropellant
-            rocket. I am also a elected member of the UWaterloo Engineering
+            software used to launch Canada{`'s`} second ever liquid bipropellant
+            rocket. I am also an elected member of the UWaterloo Engineering
             Society council, advocating for various student causes.
           </p>
           <p className="mb-2">Feel free to reach out!</p>
