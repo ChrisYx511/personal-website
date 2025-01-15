@@ -2,7 +2,10 @@ import { Over_the_Rainbow } from "next/font/google"
 const overTheRainbow = Over_the_Rainbow({
   subsets: ["latin"],
   weight: ["400"],
+  display: "swap",
+  fallback: ["serif"],
 })
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faEnvelope,
@@ -38,7 +41,7 @@ function HomePage() {
             Society council, advocating for various student causes.
           </p>
           <p className="mb-2">Feel free to reach out!</p>
-          <div className="flex flex-row text-gray-700">
+          <div className="flex flex-col lg:flex-row text-gray-700">
             <Link
               href={"mailto:chrisyx511@gmail.com"}
               className=" flex flex-col justify-center h-6 mr-4 hover:underline hover:text-gray-500"
