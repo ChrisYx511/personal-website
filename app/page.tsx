@@ -27,11 +27,12 @@ function HomePage() {
             student at the University of Waterloo.
           </p>
           <p className="mb-2">
-            Over the summer, I was employed at the Government of Canada, leading
-            the development of full-stack internal apps for the Cadets and
-            Junior Canadian Rangers program, automating flight qualification
-            checks for thousands of flight instructors and staff across the
-            country.
+            I am currently also a Software Engineer Intern at Shopify, where I
+            contribute to the core Shopify platform, working on features and
+            quality improvements that help deliver on making commerce better for
+            everyone. Previously, I have also interned for the Government of
+            Canada, delivering digital transition projects for the Canadian
+            Cadets Organization.
           </p>
           <p className="mb-2">
             In my spare time, I am an active contributor on the Waterloo
