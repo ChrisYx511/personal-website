@@ -23,23 +23,21 @@ function HomePage() {
             chris yang
           </h2>
           <p className="mb-2">
-            My name is Chris and I am currently a 1B Software Engineering
-            student at the University of Waterloo.
+            Builder of thingamajigs, eater of food. 2A Software Engineering
+            student at the University of Waterloo, graduating in 2029.
           </p>
           <p className="mb-2">
-            I am currently also a Software Engineer Intern at Shopify, where I
-            contribute to the core Shopify platform, working on features and
-            quality improvements that help deliver on making commerce better for
-            everyone. Previously, I have also interned for the Government of
-            Canada, delivering digital transition projects for the Canadian
-            Cadets Organization.
+            Currently, I will be continuing my work at Shopify as a full-stack
+            Software Engineering Intern, having previously worked on Core {">"}{" "}
+            Deliver {">"} Inventory team, where I helped deliver a new inventory
+            transfer experience for merchants. Before that, worked for the
+            Canadian Department of National Defense, building applications for
+            the Canadian Cadets Organization.
           </p>
           <p className="mb-2">
-            In my spare time, I am an active contributor on the Waterloo
-            Rocketry Software Subsystem, working to deliver mission critical
-            software used to launch Canada{`'s`} second ever liquid bipropellant
-            rocket. I am also an elected member of the UWaterloo Engineering
-            Society council, advocating for various student causes.
+            In my spare time, I lead the Waterloo Rocketry Software Subsystem,
+            working to deliver mission critical software used to propel Canadian
+            aerospace forward.
           </p>
           <p className="mb-2">Feel free to reach out!</p>
           <div className="flex flex-col lg:flex-row text-gray-700">
