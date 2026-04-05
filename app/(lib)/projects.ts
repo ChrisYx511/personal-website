@@ -457,6 +457,39 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: "magicmirror",
+    title: "MagicMirror Dashboard",
+    subtitle: "Personal Dashboard with Spotify & AI",
+    description:
+      "An interactive dashboard for a magic mirror built for SE 101, featuring Spotify playback integration via the Web API SDK, OpenAI-powered features, and MongoDB data persistence. Deployed live on Vercel.",
+    tier: "standard",
+    category: "personal",
+    techStack: [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Spotify Web API",
+      "OpenAI API",
+      "MongoDB",
+      "Vercel",
+    ],
+    repos: [
+      {
+        owner: "ChrisYx511",
+        name: "nextjs-magicmirror",
+        label: "Dashboard Repository",
+      },
+    ],
+    links: [
+      {
+        url: "https://github.com/ChrisYx511/nextjs-magicmirror",
+        label: "GitHub",
+        type: "github",
+      },
+    ],
+  },
+  {
     id: "learnloop",
     title: "LearnLoop",
     subtitle: "Empower Learning, One Swipe at a Time",
@@ -584,39 +617,6 @@ export const projects: Project[] = [
         url: "https://devpost.com/software/crooked-labs-marianopolis-mentorship-program",
         label: "Devpost",
         type: "devpost",
-      },
-    ],
-  },
-  {
-    id: "magicmirror",
-    title: "MagicMirror Dashboard",
-    subtitle: "Personal Dashboard with Spotify & AI",
-    description:
-      "An interactive personal dashboard built for SE 101, featuring Spotify playback integration via the Web API SDK, OpenAI-powered features, and MongoDB data persistence. Deployed live on Vercel.",
-    tier: "standard",
-    category: "personal",
-    techStack: [
-      "Next.js 15",
-      "React 19",
-      "TypeScript",
-      "Tailwind CSS",
-      "Spotify Web API",
-      "OpenAI API",
-      "MongoDB",
-      "Vercel",
-    ],
-    repos: [
-      {
-        owner: "ChrisYx511",
-        name: "nextjs-magicmirror",
-        label: "Dashboard Repository",
-      },
-    ],
-    links: [
-      {
-        url: "https://github.com/ChrisYx511/nextjs-magicmirror",
-        label: "GitHub",
-        type: "github",
       },
     ],
   },
