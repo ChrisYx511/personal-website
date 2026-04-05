@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Arimo, Inter } from "next/font/google"
 import "./globals.css"
 import React from "react"
+import NavBar from "./(components)/NavBar"
 
 const arimo = Arimo({ subsets: ["latin"] })
 const inter = Inter({ subsets: ["latin"] })
@@ -20,9 +21,10 @@ export default function RootLayout({
       <body
         className={
           inter.className +
-          " from-indigo-400 to-cyan-400 bg-gradient-to-tr bg-no-repeat h-screen"
+          " from-indigo-400 to-cyan-400 bg-gradient-to-tr bg-no-repeat min-h-screen"
         }
       >
+        <NavBar />
         <main>{children}</main>
       </body>
     </html>
