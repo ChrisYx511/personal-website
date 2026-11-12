@@ -21,27 +21,8 @@ function HomePage() {
         <h2 className={overTheRainbow.className + " " + "text-2xl mb-6"}>
           chris yang
         </h2>
-        <p className="mb-4 text-gray-700 leading-relaxed">
-          Builder of thingamajigs, eater of food. 2A Software Engineering
-          student at the University of Waterloo, graduating in 2029.
-        </p>
-        <p className="mb-4 text-gray-700 leading-relaxed">
-          Currently, I am working as a Production Engineer, Intern at Shopify,
-          on the Cloud Systems team, where I am primarily focused on improving
-          the reliability and scalability of Shopify&apos;s cloud infrastructure.
-          Some projects I&apos;m working on include a custom Kubernetes
-          controller to automate collecting sysdig captures in Go, migrating
-          clusters that power the Shopify platform to Zonal DNS to mitigate the
-          impact of zonal failures, and building out new deployments of various
-          tools such as Temporal. I previously worked on the Shopify Core {">"}{" "}
-          Deliver {">"} Inventory team, where I helped deliver a new inventory
-          transfer experience for millions of merchants worldwide, from
-          one-person shops to enterprise customers.
-        </p>
-        <p className="mb-4 text-gray-700 leading-relaxed">
-          In my spare time, I lead the Waterloo Rocketry Software Subsystem,
-          working to deliver mission critical software used to propel Canadian
-          aerospace forward.
+        <p className="mb-6 text-gray-700 leading-relaxed">
+          building cool things, some of which that fly 🌐 🚀 🪄✨
         </p>
         <p className="mb-6 text-gray-700">Feel free to reach out!</p>
         <div className="flex flex-col lg:flex-row gap-3 text-gray-600">
